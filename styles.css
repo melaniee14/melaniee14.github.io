@@ -1,6 +1,6 @@
 body {
-    background-color: #611F69; /* Dark Slack Purple */
-    color: #FFFFFF;
+    background-color: #F6C6E1; /* Pastel Pink */
+    color: #4A154B;
     font-family: 'Inter', sans-serif;
     text-align: center;
     margin: 0;
@@ -8,24 +8,24 @@ body {
 }
 
 header {
-    background-color: #4A154B; /* Slack Purple */
+    background-color: #F1A7D1; /* Lighter Pastel Pink */
     padding: 20px;
-    border-bottom: 5px solid #E01E5A; /* Slack Pink */
+    border-bottom: 5px solid #F9A8B3; /* Soft Pastel Pink */
 }
 
 .card {
-    background-color: #F3F4F6; /* Light Background for Card */
+    background-color: #F1FAFF; /* Light Pastel Blue */
     color: #4A154B;
     margin: 20px auto;
     padding: 30px;
     border-radius: 12px;
     width: 50%;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    border-left: 6px solid #36C5F0; /* Slack Blue */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #A7D8C3; /* Soft Pastel Green */
 }
 
 button {
-    background-color: #E01E5A; /* Slack Pink */
+    background-color: #F9A8B3; /* Soft Pastel Pink */
     color: white;
     padding: 12px 20px;
     border: none;
@@ -36,12 +36,12 @@ button {
 }
 
 button:hover {
-    background-color: #36C5F0; /* Slack Blue */
+    background-color: #A7D8C3; /* Soft Pastel Green */
 }
 
 footer {
-    background-color: #4A154B; /* Slack Purple */
-    color: white;
+    background-color: #F6C6E1; /* Pastel Pink */
+    color: #4A154B;
     padding: 15px;
     margin-top: 20px;
 }
