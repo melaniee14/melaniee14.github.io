@@ -9,50 +9,41 @@
 </head>
 <body>
     <header>
-        <h1 style="color: #FFA500;">Resume Submission Portal</h1>
-        <p style="color: #FFFFFF;">Submit your resume easily and quickly</p>
+        <h1>Resume Submission Portal</h1>
+        <p>Submit your resume easily and quickly</p>
     </header>
     
-    <section id="submit-resume" style="box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);">
-        <h2 style="color: #FF69B4;">Submit Your Resume</h2>
-        <form id="resume-form" enctype="multipart/form-data" style="box-shadow: 0 4px 6px rgba(255, 105, 180, 0.1);">
-            <label for="name" style="color: #FFA500;">Name:</label>
+    <section class="card" id="submit-resume">
+        <h2>Submit Your Resume</h2>
+        <form id="resume-form" enctype="multipart/form-data">
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             
-            <label for="email" style="color: #FFA500;">Email:</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             
-            <label for="resume" style="color: #FFA500;">Upload Resume:</label>
+            <label for="resume">Upload Resume:</label>
             <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
             
-            <button type="submit" style="background-color: #FF69B4; color: white;">Submit</button>
+            <button type="submit">Submit</button>
         </form>
     </section>
-
-
-    <section id="credit-card">
-         <h2>Credit Card Information</h2>
-         <form id="resume-form" enctype="multipart/form-data"style="box-shadow: 0 4px 6px rgba(255, 105, 180, 0.1);">
-             <label for="name">Name:</label>
-             <input type="text" id="name" name="name" required>
-             
-             <label for="card">Card Number</label>
-             <input type="number" id="card" name="number" required>
-             
-             <label for="resume">Zip Code:</label>
-             <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
-             
-             <button type="submit"style="background-color: #FF69B4; color: white;">Submit</button>
-         </form>
-     </section>
- 
     
-    <script src="script.js"></script>
-</body>
-</html>
+    <section class="card" id="credit-card-info">
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
 
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+            <button type="submit">Submit Payment</button>
+        </form>
+    </section>
     
-    
-    <script src="script.js"></script>
-</body>
-</html>
+    <footer>
+        <p>Created
