@@ -1,62 +1,47 @@
 body {
-            background-color: #4A154B; /* Slack Purple */
-            color: #FFFFFF;
-            font-family: 'Inter', sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #611F69; /* Dark Slack Purple */
-            padding: 20px;
-            border-bottom: 5px solid #E01E5A; /* Slack Pink */
-        }
-
-logo {
-  display: inline-block;
-  margin: 15px; /* margin: 20px was off */
-  float: left;
-  height: 60px;
-  width: auto; /* correct proportions to specified height */
-  border-radius: 50%; /* makes it a circle */
+    background-color: #611F69; /* Dark Slack Purple */
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-        .card {
-            background-color: #FFFFFF;
-            color: #4A154B;
-            margin: 20px auto;
-            padding: 30px;
-            border-radius: 12px;
-            width: 50%;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-            border-left: 6px solid #36C5F0; /* Slack Blue */
-        }
-        label {
-            color: #611F69;
-            font-weight: bold;
-        }
-        input, file {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-            border: 2px solid #2EB67D; /* Slack Green */
-            border-radius: 4px;
-        }
-        button {
-            background-color: #E01E5A; /* Slack Pink */
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        button:hover {
-            background-color: #36C5F0; /* Slack Blue */
-        }
-        footer {
-            background-color: #611F69;
-            color: white;
-            padding: 15px;
-            margin-top: 20px;
-        }
+
+header {
+    background-color: #4A154B; /* Slack Purple */
+    padding: 20px;
+    border-bottom: 5px solid #E01E5A; /* Slack Pink */
+}
+
+.card {
+    background-color: #F3F4F6; /* Light Background for Card */
+    color: #4A154B;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 50%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-left: 6px solid #36C5F0; /* Slack Blue */
+}
+
+button {
+    background-color: #E01E5A; /* Slack Pink */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #36C5F0; /* Slack Blue */
+}
+
+footer {
+    background-color: #4A154B; /* Slack Purple */
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
