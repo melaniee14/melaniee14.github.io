@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Submission</title>
+    <title>Slack Careers</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Resume Submission Portal</h1>
+        <h1>Resume </h1>
         <p>Submit your resume easily and quickly</p>
     </header>
     
@@ -27,6 +27,25 @@
             <button type="submit">Submit</button>
         </form>
     </section>
+    
+ <section id="credit-card">
+        <h2>Credit Card Information</h2>
+        <form id="resume-form" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="card">Card Number</label>
+            <input type="number" id="card" name="number" required>
+            
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+
+    
     
     <script src="script.js"></script>
 </body>
