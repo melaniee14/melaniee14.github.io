@@ -26,6 +26,15 @@ section {
     box-shadow: 0 4px 8px rgba(255, 204, 0, 0.2);
 }
 
+logo {
+  display: inline-block;
+  margin: 15px; /* margin: 20px was off */
+  float: left;
+  height: 60px;
+  width: auto; /* correct proportions to specified height */
+  border-radius: 50%; /* makes it a circle */
+}
+
 form {
     display: flex;
     flex-direction: column;
