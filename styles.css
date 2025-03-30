@@ -7,6 +7,15 @@ body {
     padding: 0;
 }
 
+#logo {
+  display: inline-block;
+  margin: 15px; /* margin: 20px was off */
+  float: left;
+  height: 60px;
+  width: auto; /* correct proportions to specified height */
+  border-radius: 50%; /* makes it a circle */
+}
+
 header {
     background-color: #F1A7D1; /* Lighter Pastel Pink */
     padding: 20px;
