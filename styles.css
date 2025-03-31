@@ -7,6 +7,12 @@ body {
     padding: 0;
 }
 
+#about-us p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4A154B;
+}
+
 #logo {
   display: inline-block;
   margin: 15px; /* margin: 20px was off */
