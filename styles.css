@@ -18,8 +18,14 @@ body {
   margin: 15px; /* margin: 20px was off */
   float: left;
   height: 60px;
-  width: auto; /* correct proportions to specified height */
-  border-radius: 50%; /* makes it a circle */
+  width: auto; 
+  border-radius: 50%; 
+}
+
+#about-image {
+    height: 100px;
+    width: 200 px;
+    border-radius 90%;
 }
 
 header {
