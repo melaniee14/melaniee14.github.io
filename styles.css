@@ -28,7 +28,7 @@ body {
     border-radius 90%;
 }
 
-#header {
+header {
     background-color: #F1A7D1; /* Lighter Pastel Pink */
     padding: 20px;
     border-bottom: 5px solid #F9A8B3; /* Soft Pastel Pink */
