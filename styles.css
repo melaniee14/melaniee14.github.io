@@ -38,6 +38,14 @@ header {
     border-bottom: 5px solid #F9A8B3; /* Soft Pastel Pink */
 }
 
+.header-text {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .card {
     background-color: #F1FAFF; /* Light Pastel Blue */
     color: #4A154B;
