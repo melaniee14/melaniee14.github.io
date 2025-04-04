@@ -7,6 +7,14 @@ body {
     padding: 0;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
 #about-us p {
     font-size: 16px;
     line-height: 1.6;
