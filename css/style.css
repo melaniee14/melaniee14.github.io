@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.grid img {
+  display: block;
+  width: 100%;
+}
+
+.grid p {
+  margin: 6px 0 0;
+  font-size: 0.85rem;
+}
